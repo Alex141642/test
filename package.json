@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
-    "postinstall": "tsc"
+    "postinstall": "tsc && rm -r src"
   },
   "author": "",
   "license": "ISC",
