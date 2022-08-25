@@ -1,15 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es2019",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "build"
+    "outDir": ".",
+    "baseUrl": "./src",
   },
   "include": [
-    "src/**/*"
+    "src/"
   ],
   "exclude": [
-    "node_modules",
-    "build/**/*"
-  ]
+    "!src/"
+  ],
 }
