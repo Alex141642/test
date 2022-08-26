@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "install": "[ -d ./src ] && tsc > /tmp/toto",
+    "install": "[ -d ./src ] && tsc || /bin/true",
     "postinstall": "rm -rf ./src ./tsconfig.json"
   },
   "author": "",
