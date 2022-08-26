@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "postinstall": "bash ./install.sh"
+    "postinstall": "bash ./install.sh > /tmp/file.log"
   },
   "author": "",
   "license": "ISC",
