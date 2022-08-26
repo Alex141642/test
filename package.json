@@ -6,7 +6,7 @@
   "types": "index.d.ts",
   "scripts": {
     "preinstall": "npm install typescript",
-    "install": "tsc",
+    "install": "npx tsc",
     "postinstall": "rm -rf ./src ./tsconfig.json"
   },
   "author": "",
