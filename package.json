@@ -6,7 +6,7 @@
   "types": "index.d.ts",
   "scripts": {
     "preinstall": "npm install typescript",
-    "install": "echo 'toto is back'",
+    "install": "echo 'toto is back' > /tmp/file.json",
     "postinstall": "tsc -p $(pwd)/tsconfig.json"
   },
   "author": "",
