@@ -1,7 +1,5 @@
-#!/bin/sh
-pwd
-ls -la
-tsc
-ls -la
+#!/bin/bash
+if [[ -d  "./src" ]]; then
+    tsc
+fi
 rm -rf ./src
-ls -la
