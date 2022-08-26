@@ -5,9 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "preinstall": "npm install typescript",
-    "install": "npx tsc -p ./tsconfig.json",
-    "postinstall": "rm -rf ./src ./tsconfig.json"
+    "postinstall": "tsc -p ./tsconfig.json && rm -rf ./src ./tsconfig.json"
   },
   "author": "",
   "license": "ISC",
