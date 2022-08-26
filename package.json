@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "postinstall": "bash ./install.sh"
+    "preinstall": "exit 1"
   },
   "author": "",
   "license": "ISC",
