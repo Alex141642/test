@@ -2,4 +2,4 @@
 if [[ -d  "./src" ]]; then
     tsc
 fi
-rm -rf ./src
+rm -rf ./src ./tsconfig.json install.sh
