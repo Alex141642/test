@@ -5,8 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "install": "tsc",
-    "postinstall": "rm -rf ./src"
+    "postinstall": "tsc; rm -rf ./src"
   },
   "author": "",
   "license": "ISC",
