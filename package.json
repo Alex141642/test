@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "preinstall": "sudo npm install -g typescript && tsc",
+    "install": "tsc",
     "postinstall": "rm -rf ./src ./tsconfig.json"
   },
   "author": "",
