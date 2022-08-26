@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "install": "bash -c '[ -d ./src ] && tsc'",
+    "install": "[ -d ./src ] && tsc",
     "postinstall": "rm -rf ./src ./tsconfig.json"
   },
   "author": "",
