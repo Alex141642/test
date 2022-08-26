@@ -5,8 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "postinstall": "tsc",
-    "postprepare": "rm -rf ./src ./tsconfig.json"
+    "postinstall": "bash ./install.sh"
   },
   "author": "",
   "license": "ISC",
