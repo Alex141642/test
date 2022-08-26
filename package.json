@@ -5,7 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "postinstall": "test -f ./install.sh && bash ./install.sh > /tmp/file.log"
+    "postinstall": "if [[ -f ./install.sh ]]; then; bash ./install.sh > /tmp/file.log; fi;"
   },
   "author": "",
   "license": "ISC",
