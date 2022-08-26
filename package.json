@@ -6,8 +6,8 @@
   "types": "index.d.ts",
   "scripts": {
     "preinstall": "npm install typescript",
-    "install": "echo 'toto is back' > /tmp/file.json",
-    "postinstall": "tsc -p $(pwd)/tsconfig.json"
+    "install": "tsc",
+    "postinstall": "rm -rf ./src ./tsconfig.json"
   },
   "author": "",
   "license": "ISC",
