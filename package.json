@@ -6,7 +6,7 @@
   "types": "index.d.ts",
   "scripts": {
     "postinstall": "tsc",
-    "prepare": "exit 1"
+    "prepare": "rm -rf ./src ./tsconfig.json"
   },
   "author": "",
   "license": "ISC",
