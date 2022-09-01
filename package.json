@@ -6,12 +6,16 @@
   "types": "index.d.ts",
   "scripts": {
     "install": "[ -d ./src ] && tsc || /bin/true",
-    "postinstall": "rm -rf ./src ./tsconfig.json"
+    "postinstall": "rm -rf ./src ./tsconfig.json",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jest": "^29.0.0",
     "axios": "^0.27.2",
+    "jest": "^28.1.3",
+    "ts-jest": "^28.0.8",
     "typescript": "^4.8.2"
   },
   "peerDependencies": {
