@@ -5,8 +5,8 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "install": "[ -d ./src ] && tsc || /bin/true",
-    "postinstall": "rm -rf ./src ./tsconfig.json",
+    "postinstall": "npm run build",
+    "build": "[ -d ./src ] && tsc && rm -rf ./src ./tsconfig.json",
     "test": "jest"
   },
   "author": "",
